@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* Navbar */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    height: 75px;
+    align-items: center;
+    border-bottom: .5px solid #464646;
+  }
+  
+  nav a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FF09BA;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 60%;
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
+  
+  .about,
+  .portfolio,
+  .skills,
+  .contact {
+    text-decoration: none;
+    padding:  10px 10px;
+    color: #8D8D8D;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .nav-links a:hover {
+    color: #FF09BA;
+  }
+  
+  .nav-links .active {
+    color: #FF09BA;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+  @media screen and (max-width: 880px) {
+    .nav {
+      height: 68px;
+    }
+  
+    .logo {
+      font-size: 30px;
+    }
+    
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links-mobile {
+      display: block;
+      position: absolute;
+      list-style: none;
+      left: 0;
+      top: 68px;
+      width: 100%;
+      transition: all 0.5 ease-out;
+      color: #8D8D8D;
+      height: 100vh;
+      z-index: 3;
+    }
+  
+    .nav-links-mobile a:hover {
+      color: #FF09BA;
+    }
+  
+    .about,
+    .portfolio,
+    .skills,
+    .contact {
+      text-align: center;
+      padding:  32px;
+      width: 100%;
+      transition: all 0.5 ease-out;
+    }
+  
+    .mobile-menu {
+      display: block;
+      position: absolute;
+      top: 23px;
+      right: 22px;
+      font-size: 27px;
+      color: #8D8D8D;
+      border: none;
+    }
+  }
+  

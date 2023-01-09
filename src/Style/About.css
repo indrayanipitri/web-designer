@@ -1,0 +1,19 @@
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0;
+}
+
+.img-me img {
+    width: 300px;
+}
+
+.text-me {
+    width: 400px;
+}
+
+.text-me p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 33px;
+}
