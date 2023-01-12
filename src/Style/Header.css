@@ -1,11 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
 /* Navbar */
+
+.header {
+  position: fixed;
+  height: 75px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: .3s ease-in;
+  overflow: hidden;
+  background-color: #1e1e1e;
+}
+
 .nav {
     display: flex;
-    justify-content: space-around;
-    font-size: 18px;
-    height: 75px;
+    justify-content: space-between;
     align-items: center;
+    margin: auto;
+    height: 100%;
+    padding: 0 10%;
+    font-size: 18px;
     border-bottom: .5px solid #464646;
   }
   
@@ -17,8 +33,8 @@
   .logo {
     font-family: 'Pacifico', cursive;
     font-weight: 600;
-    font-size: 30px;
-    color: #FF09BA;
+    font-size: 32px;
+    color: #ff31ba;
   }
   
   .nav-links {
@@ -27,33 +43,35 @@
     list-style: none;
     width: 60%;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
   }
   
   .about,
   .portfolio,
-  .skills,
+  .home,
   .contact {
     text-decoration: none;
     padding:  10px 10px;
-    color: #8D8D8D;
+    color: #ffffff;
     margin: 0 10px;
     cursor: pointer;
   }
   
   .nav-links a:hover {
-    color: #FF09BA;
+    color: #ff31ba;
   }
   
-  .nav-links .active {
-    color: #FF09BA;
-  }
+  /* .nav-links .active {
+    color: #ff31ba;
+  } */
   
   .mobile-menu {
     display: none;
   }
   
   @media screen and (max-width: 880px) {
+    
     .nav {
       height: 68px;
     }
@@ -68,7 +86,7 @@
   
     .nav-links-mobile {
       display: block;
-      position: absolute;
+      position: fixed;
       list-style: none;
       left: 0;
       top: 68px;
@@ -76,16 +94,17 @@
       transition: all 0.5 ease-out;
       color: #8D8D8D;
       height: 100vh;
-      z-index: 3;
+      z-index: 9;
+      background-color: #1e1e1e;
     }
   
     .nav-links-mobile a:hover {
-      color: #FF09BA;
+      color: #ff31ba; 
     }
   
     .about,
     .portfolio,
-    .skills,
+    .home,
     .contact {
       text-align: center;
       padding:  32px;
@@ -101,6 +120,7 @@
       font-size: 27px;
       color: #8D8D8D;
       border: none;
+      background-color: #1e1e1e;
     }
   }
   

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 * {
   margin: 0;
@@ -8,11 +8,31 @@
 
 .App {
   background-color: #1E1E1E;
-  color: #8D8D8D;
+  color: #fff;
   height: auto;
-  font-family: 'Nunito', sans-serif;;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 33px;
 }
 
 .container {
   padding: 15px 10%;
+}
+
+.footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding: 8px 5%;
+  }
+}
+
+@media screen and (max-width: 609px) {
+  .App {
+    line-height: 28px;
+    font-size: 15px;
+  }
 }

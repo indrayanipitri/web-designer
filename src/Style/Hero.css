@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+.hero- {
+    padding-top: 80px;
+}
 .icon-medsos {
     text-align: end;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .icon-medsos .fab {
@@ -20,10 +23,55 @@
     font-family: 'Righteous', cursive;
     color: #fff;
     letter-spacing: 2px;
-    font-size: 32px;
-    padding: 70px 80px;
+    font-size: 37px;
+    padding: 120px 80px;
+    line-height: 80px;
 }
 
 .hero-name {
-    color: #FF09BA;
+    color: #ff31ba;
+}
+
+@media screen and (max-width: 1129px) {
+    .hero {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .icon-medsos {
+        margin-right: 0;
+    }
+
+    .hero {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 642px) {
+    .hero {
+        font-size: 28px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 609px) {
+    .hero {
+        padding-right: 10px;
+        padding-left: 30px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+}
+
+
+@media screen and (max-width: 387px) {
+    .hero {
+        padding-left: 20px;
+        padding-top: 70px;
+        padding-bottom: 30px;
+        font-size: 17px;
+        line-height: 45px;
+    }
 }

@@ -6,7 +6,7 @@ import LandingPage from './Pages/LandingPage'
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header/>
       <Outlet />
       <Routes>
         <Route path='/' element={<LandingPage />}/>

@@ -6,6 +6,7 @@
 
 .img-me img {
     width: 300px;
+    margin-top: 50px;
 }
 
 .text-me {
@@ -14,6 +15,65 @@
 
 .text-me p {
     text-align: justify;
-    font-size: 18px;
-    line-height: 33px;
+    
+}
+
+.list-skills {
+    display: flex;
+    justify-content: space-between;
+    color: #ff31ba;
+    font-weight: 400;
+}
+
+.list-1 {
+    width: 50%;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 991px) {
+    .about-me {
+        padding: 90px 0 120px;
+    }
+    .img-me img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .about-me {
+        display: block;
+        margin: auto;
+        padding: 50px 0 120px;
+    }
+
+    .img-me{
+        text-align: center;
+        
+    }
+
+    .img-me img {
+        width: 350px;
+    }
+
+    .text-me {
+        margin: auto;
+        width: 90%;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 609px) {
+    .about-me {
+        padding: 0px 0 80px;
+    }
+    .img-me img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .img-me img {
+        width: 220px;
+    }
 }
