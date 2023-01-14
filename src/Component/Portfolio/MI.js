@@ -10,7 +10,7 @@ export default function MI() {
             <div className="text-projects">
                 <div className="subtitle-text">
                     <p>Website Sekolah Madrasah Ibtidaiyah. Konsep design sekolah ini dibuat rame tapi tetap terlihat simple. Perpaduan warna biru nya bikin adem dimata. </p>
-                    
+                    <a href="/"><button>Lihat Web</button></a>
                 </div>
                 <div className="properties-text">
                     <h4>Tool Design :</h4>
@@ -18,11 +18,11 @@ export default function MI() {
                     <h4 className='font-text'>Font :</h4>
                     <p>Dongle</p>
                 </div>
-                
             </div>
-        <div className="img-portfolio">
-            <img src={ImgMi} alt="mi" />
-        </div>
+            <p className='tech-stack'>Tech Stack: Laeavel, MySql, VueJs, CSS, Bootstrap.</p>
+            <div className="img-portfolio">
+                <img src={ImgMi} alt="mi" />
+            </div>
         </div>
     </div>
     

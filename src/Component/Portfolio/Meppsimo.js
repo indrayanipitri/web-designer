@@ -4,6 +4,7 @@ import ImgMeppsimo from '../../assets/meppsimo.png'
 
 export default function Meppsimo() {
   return (
+    <div className="background-projects">
         <div className='container-projects' id='portfolio'>
         <h2>Website Belanja Online - Meppsimo</h2>
             <div className="text-projects">
@@ -24,6 +25,6 @@ export default function Meppsimo() {
             <img src={ImgMeppsimo} alt="meppsimo" />
         </div>
         </div>
-    
+    </div>
   )
 }

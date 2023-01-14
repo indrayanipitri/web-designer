@@ -21,9 +21,10 @@ export default function Tkit() {
                 
             </div>
             <p className='tech-stack'>Tech Stack: ReactJs, CSS, Bootstrap.</p>
-        <div className="img-portfolio">
+            
+            <div className="img-portfolio">
             <img src={ImgTkit} alt="tkit" />
-        </div>
+            </div>
         </div>
     
   )

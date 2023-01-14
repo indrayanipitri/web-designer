@@ -1,6 +1,6 @@
 
 .background-projects {
-    background-color: #272727;
+    background-color: #e7e8ff;
 }
 
 .container-projects {
@@ -9,6 +9,7 @@
 
 .container-projects h2 {
     margin-bottom: 15px;
+    color: #69017e;
 }
 
 .text-projects{
@@ -24,7 +25,7 @@
 
 .subtitle-text button {
     padding: 10px 15px;
-    background-color: #ff31ba;
+    background-color: #69017e;
     margin-top: 10px;
     color: #fff;
     border: none;
@@ -35,8 +36,9 @@
 }
 
 .subtitle-text button:hover {
-    background-color: #ff67d4;
+    background-color: #b101d4;
 }
+
 .properties-text {
     margin-right: 10px;
 }

@@ -21,8 +21,9 @@
 .list-skills {
     display: flex;
     justify-content: space-between;
-    color: #ff31ba;
+    color: #69017e;
     font-weight: 400;
+    margin-top: 5px;
 }
 
 .list-1 {

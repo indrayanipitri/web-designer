@@ -5,7 +5,7 @@ import ImgTodo from '../../assets/todo.png'
 export default function Todo() {
   return (
         <div className='container-projects'>
-        <h2>Website Sekolah TKIT</h2>
+        <h2>App ToDo List</h2>
             <div className="text-projects">
                 <div className="subtitle-text">
                     <p>App todo yang dibuat simple dengan fungsionalitas sebutuhnya. Perpaduan warna hitam biru dan kuning membuatnya terlihat okay. Disimpan di local storage.</p>

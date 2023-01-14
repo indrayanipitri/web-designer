@@ -4,17 +4,21 @@
 }
 
 .kontak h1 {
-    font-size: 44px;
-    color: #ff31ba;
-    margin-bottom: 10px;
+    font-size: 50px;
+    color: #69017e;
+    margin-bottom: 20px;
 }
 
 .kontak span {
-    color: #ff31ba;
+    color: #69017e;
 }
 
 @media screen and (max-width: 991px) {
     .kontak {
         padding-left: 5%;
+    }
+
+    .kontak h1 {
+        font-size: 44px;
     }
 }

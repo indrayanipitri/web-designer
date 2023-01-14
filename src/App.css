@@ -7,8 +7,10 @@
 }
 
 .App {
-  background-color: #1E1E1E;
-  color: #fff;
+  /* background-color: #1E1E1E; */
+  background-color: #f3f8fb;
+  /* color: #fff; */
+  color: rgb(47, 47, 47);
   height: auto;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;

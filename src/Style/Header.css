@@ -4,14 +4,14 @@
 
 .header {
   position: fixed;
-  height: 75px;
+  height: 70px;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 1;
   transition: .3s ease-in;
   overflow: hidden;
-  background-color: #1e1e1e;
+  background-color: #f3f8fb;
 }
 
 .nav {
@@ -22,7 +22,7 @@
     height: 100%;
     padding: 0 10%;
     font-size: 18px;
-    border-bottom: .5px solid #464646;
+    border-bottom: .5px solid #dedede;
   }
   
   nav a {
@@ -34,7 +34,8 @@
     font-family: 'Pacifico', cursive;
     font-weight: 600;
     font-size: 32px;
-    color: #ff31ba;
+    /* color: #ff31ba; */
+    color: #69017e;
   }
   
   .nav-links {
@@ -53,13 +54,14 @@
   .contact {
     text-decoration: none;
     padding:  10px 10px;
-    color: #ffffff;
+    color: rgb(47, 47, 47);
     margin: 0 10px;
     cursor: pointer;
+    font-weight: 600;
   }
   
   .nav-links a:hover {
-    color: #ff31ba;
+    color: #d617f3;
   }
   
   /* .nav-links .active {
@@ -92,14 +94,14 @@
       top: 68px;
       width: 100%;
       transition: all 0.5 ease-out;
-      color: #8D8D8D;
+      color: rgb(47, 47, 47);
       height: 100vh;
       z-index: 9;
-      background-color: #1e1e1e;
+      background-color: #f3f8fb;
     }
   
     .nav-links-mobile a:hover {
-      color: #ff31ba; 
+      color: #d617f3; 
     }
   
     .about,
@@ -118,9 +120,9 @@
       top: 23px;
       right: 22px;
       font-size: 27px;
-      color: #8D8D8D;
+      color: rgb(47, 47, 47);
       border: none;
-      background-color: #1e1e1e;
+      background-color: #f3f8fb;
     }
   }
   
