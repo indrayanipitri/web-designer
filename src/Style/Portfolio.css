@@ -49,7 +49,10 @@
 
 .tech-stack {
     margin-top: 40px;
-    margin-bottom: 20px;
+}
+
+.img-portfolio {
+    margin-top: 25px;
 }
 
 .img-portfolio img {
@@ -63,6 +66,10 @@
 
     .container-projects h2 {
         font-size: 18px;
+    }
+
+    .subtitle-text {
+        text-align: left;
     }
 
     .subtitle-text button {

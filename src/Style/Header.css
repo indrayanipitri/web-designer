@@ -117,10 +117,10 @@
     .mobile-menu {
       display: block;
       position: absolute;
-      top: 23px;
+      top: 20px;
       right: 22px;
       font-size: 27px;
-      color: rgb(47, 47, 47);
+      color: #69017e;
       border: none;
       background-color: #f3f8fb;
     }

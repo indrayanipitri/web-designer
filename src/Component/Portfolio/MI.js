@@ -19,7 +19,7 @@ export default function MI() {
                     <p>Dongle</p>
                 </div>
             </div>
-            <p className='tech-stack'>Tech Stack: Laeavel, MySql, VueJs, CSS, Bootstrap.</p>
+            <p className='tech-stack'>Tech Stack: Laravel, MySql, CSS, Bootstrap, Javascript.</p>
             <div className="img-portfolio">
                 <img src={ImgMi} alt="mi" />
             </div>
