@@ -4,7 +4,7 @@ import ImgIstiqomah from '../../assets/istiqomah.png'
 
 export default function Istiqomah() {
   return (
-    <div className="background-projects">
+    <div className="background-istiqomah">
         <div className='container-projects'>
         <h2>Website Sekolah Al - Istiqomah</h2>
             <div className="text-projects">

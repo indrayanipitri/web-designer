@@ -4,7 +4,7 @@ import ImgMi from '../../assets/mi.png'
 
 export default function MI() {
   return (
-    <div className="background-projects" >
+    <div className="background-mi" >
         <div className='container-projects'>
         <h2>Website Sekolah MI</h2>
             <div className="text-projects">

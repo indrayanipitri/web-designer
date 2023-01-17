@@ -5,11 +5,12 @@
 
 .container-projects {
     padding: 70px 10%;
+    color: #fff;
 }
 
 .container-projects h2 {
     margin-bottom: 15px;
-    color: #69017e;
+    color: #fff;
 }
 
 .text-projects{
@@ -25,18 +26,18 @@
 
 .subtitle-text button {
     padding: 10px 15px;
-    background-color: #69017e;
-    margin-top: 10px;
-    color: #fff;
+    background-color: #ffffff;
+    margin-top: 15px;
+    color: #000;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 17px;
 }
 
 .subtitle-text button:hover {
-    background-color: #b101d4;
+    background-color: #e8e8e8;
 }
 
 .properties-text {
@@ -58,6 +59,76 @@
 .img-portfolio img {
     width: 100%;
 }
+
+/* Meppsimo */
+.background-meppsimo, .background-todo {
+    background-color: #AEAFC6;
+}
+.background-meppsimo h2, .background-todo h2 {
+    color: #69017e;
+}
+
+.background-meppsimo p, .background-todo p {
+    color: rgb(10, 10, 10);
+}
+
+.background-meppsimo h4, .background-todo h4 {
+    color: #69017e;
+}
+
+.background-meppsimo button, .background-todo button {
+    background-color: #69017e;
+    color: #fff;
+}
+
+/* Burger Enak */
+.background-burgerenak {
+    background-color: #81829E;
+}
+
+.background-burgerenak h2{
+    color: #84019e;
+}
+
+.background-burgerenak p {
+    color: rgb(239, 239, 239);
+}
+
+.background-burgerenak h4 {
+    color: #84019e;
+}
+
+
+.background-burgerenak button {
+    background-color: #8e08a9;
+    color: #fff;
+}
+
+/* Cari Motor */
+.background-carimotor {
+    background-color: #565775;
+}
+
+.background-carimotor h2, .background-carimotor h4{
+    color: #e9cbff;
+}
+/* MI */
+.background-mi {
+    background-color: #2B2D4A;
+}
+
+/* TKIT */
+.background-tkit {
+    background-color: #171830;
+}
+
+/* TKIT */
+.background-istiqomah {
+    background-color: #0c0a1b;
+}
+
+/* Todo */
+
 
 @media screen and (max-width: 609px) {
     .container-projects {

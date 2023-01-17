@@ -1,28 +1,29 @@
 import React from 'react'
 import '../../Style/Portfolio.css'
-import ImgMeppsimo from '../../assets/meppsimo.png'
+import ImgBurgerEnak from '../../assets/burgerenak.png'
 
 export default function Meppsimo() {
   return (
-    <div className="background-meppsimo">
+    <div className="background-burgerenak">
         <div className='container-projects' id='portfolio'>
         <h2>Website Belanja Online - Meppsimo</h2>
             <div className="text-projects">
                 <div className="subtitle-text">
-                    <p>Nyoba buat bikin website belanja online dengan design minimalis tapi tetap terlihat elegan!</p>
-                    <a href="https://meppsimo.netlify.app/" target="_blank" rel="noreferrer"><button>Lihat Web</button></a>
+                    <p>Karena suka baget sama burger, muncul lah ide bikin web landing page ini. Dengan menerapkan prinsip swiss style, jelas design ui nya terlihat simple dan objektif tentunya.</p>
+                    <a href="/" target="_blank" rel="noreferrer"><button>Lihat Web</button></a>
                     
                 </div>
                 <div className="properties-text">
                     <h4>Tool Design :</h4>
-                    <p>Adobe Xd</p>
+                    <p>Figma</p>
                     <h4 className='font-text'>Font :</h4>
-                    <p>Noto Sans</p>
+                    <p>Poppins</p>
+                    <p>Rowdies</p>
                 </div>
             </div>
-            <p className='tech-stack'>Tech Stack: HTML, CSS, Bootstrap.</p>
+            <p className='tech-stack'>Tech Stack: Reactjs, CSS.</p>
         <div className="img-portfolio">
-            <img src={ImgMeppsimo} alt="meppsimo" />
+            <img src={ImgBurgerEnak} alt="burgerenak" />
         </div>
         </div>
     </div>

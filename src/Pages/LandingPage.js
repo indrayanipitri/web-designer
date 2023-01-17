@@ -3,6 +3,7 @@ import Header from '../Component/Header';
 import Hero from '../Component/Hero'
 import About from '../Component/About';
 import Meppsimo from '../Component/Portfolio/Meppsimo'
+import BurgerEnak from '../Component/Portfolio/BurgerEnak'
 import Carimotor from '../Component/Portfolio/Carimotor'
 import Mi from '../Component/Portfolio/MI'
 import Tkit from '../Component/Portfolio/Tkit'
@@ -24,6 +25,7 @@ class LandingPage extends Component {
         <Hero />
         <About />
         <Meppsimo />
+        <BurgerEnak />
         <Carimotor />
         <Mi />
         <Tkit />

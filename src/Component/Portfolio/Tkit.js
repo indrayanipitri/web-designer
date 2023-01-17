@@ -4,6 +4,7 @@ import ImgTkit from '../../assets/tkit.png'
 
 export default function Tkit() {
   return (
+    <div className='background-tkit'>
         <div className='container-projects'>
         <h2>Website Sekolah TKIT</h2>
             <div className="text-projects">
@@ -26,6 +27,8 @@ export default function Tkit() {
             <img src={ImgTkit} alt="tkit" />
             </div>
         </div>
+    </div>
+        
     
   )
 }

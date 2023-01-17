@@ -4,6 +4,7 @@ import ImgTodo from '../../assets/todo.png'
 
 export default function Todo() {
   return (
+    <div className="background-todo">
         <div className='container-projects'>
         <h2>App ToDo List</h2>
             <div className="text-projects">
@@ -25,6 +26,8 @@ export default function Todo() {
             <img src={ImgTodo} alt="todo" />
         </div>
         </div>
+    </div>
+        
     
   )
 }
