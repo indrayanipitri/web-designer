@@ -81,6 +81,10 @@
     color: #fff;
 }
 
+.background-meppsimo button:hover, .background-todo button:hover,.background-burgerenak button:hover {
+    background-color: #a848b1;
+}
+
 /* Burger Enak */
 .background-burgerenak {
     background-color: #81829E;
