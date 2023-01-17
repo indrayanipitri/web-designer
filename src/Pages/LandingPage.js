@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from '../Component/Header';
 import Hero from '../Component/Hero'
 import About from '../Component/About';
 import Meppsimo from '../Component/Portfolio/Meppsimo'
@@ -18,7 +19,8 @@ class LandingPage extends Component {
  
   render() {
     return (
-      <div>
+      <div className="App">
+        <Header/>
         <Hero />
         <About />
         <Meppsimo />

@@ -1,15 +1,16 @@
 import { Routes, Route, Outlet } from 'react-router-dom';
 import './App.css';
-import Header from './Component/Header';
+
 import LandingPage from './Pages/LandingPage'
+import NotFound from './Pages/NotFound';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
+    <div >
       <Outlet />
       <Routes>
         <Route path='/' element={<LandingPage />}/>
+        <Route path='*' element={<NotFound />}/>
       </Routes>
       
     </div>

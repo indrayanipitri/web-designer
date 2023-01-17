@@ -1,0 +1,19 @@
+/* Not Found */ 
+.container-notfound {
+    width: 500px;
+    margin: auto;
+    padding-top: 150px;
+  }
+  .container-notfound img{
+    width: 500px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container-notfound {
+       width: 350px;
+      padding-top: 250px;
+    }
+    .container-notfound img{
+      width: 350px;
+    }
+  }
