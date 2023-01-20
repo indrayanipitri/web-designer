@@ -9,7 +9,7 @@ export default function Meppsimo() {
         <h2>Website Burger Enak</h2>
             <div className="text-projects">
                 <div className="subtitle-text">
-                    <p>Karena suka baget sama burger, muncul lah ide bikin web landing page ini. Dengan menerapkan prinsip swiss style, jelas design ui nya terlihat simple dan objektif tentunya.</p>
+                    <p>Karena suka banget sama burger, muncul lah ide bikin web landing page ini. Dengan menerapkan prinsip swiss style, jelas design ui nya terlihat simple dan objektif tentunya.</p>
                     <a href="https://burger-enak.netlify.app/" target="_blank" rel="noreferrer"><button>Lihat Web</button></a>
                     
                 </div>

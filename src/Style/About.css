@@ -5,8 +5,8 @@
 }
 
 .img-me img {
-    width: 300px;
-    margin-top: 50px;
+    width: 420px;
+    margin-top: 40px;
 }
 
 .text-me {
@@ -31,13 +31,18 @@
     margin-left: 20px;
 }
 
+@media screen and (max-width: 1082px) {
+    .img-me img {
+        width: 350px;
+        margin-top: 50px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .about-me {
         padding: 90px 0 120px;
     }
-    .img-me img {
-        width: 250px;
-    }
+   
 }
 
 @media screen and (max-width: 880px) {
@@ -53,7 +58,8 @@
     }
 
     .img-me img {
-        width: 350px;
+        width: 420px;
+        margin-top: 20px;
     }
 
     .text-me {
@@ -69,12 +75,13 @@
         padding: 0px 0 80px;
     }
     .img-me img {
-        width: 250px;
+        width: 330px;
+        margin-top: 50px;
     }
 }
 
 @media screen and (max-width: 387px) {
     .img-me img {
-        width: 220px;
+        width: 260px;
     }
 }

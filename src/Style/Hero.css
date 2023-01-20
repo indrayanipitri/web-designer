@@ -23,7 +23,7 @@
     font-family: 'Righteous', cursive;
     color: rgb(28, 28, 28);
     letter-spacing: 2px;
-    font-size: 37px;
+    font-size: 35px;
     padding: 120px 80px;
     line-height: 80px;
 }
@@ -49,10 +49,18 @@
     }
 }
 
-@media screen and (max-width: 642px) {
+@media screen and (max-width: 754px) {
     .hero {
-        font-size: 28px;
-        padding-bottom: 50px;
+        font-size: 23px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .hero {
+        font-size: 20px;
+        padding-bottom: 40px;
     }
 }
 
@@ -65,13 +73,25 @@
     }
 }
 
+@media screen and (max-width: 465px) {
+    .hero {
+        font-size: 16px;
+    }
+}
 
-@media screen and (max-width: 387px) {
+@media screen and (max-width: 391px) {
     .hero {
         padding-left: 20px;
         padding-top: 70px;
         padding-bottom: 30px;
-        font-size: 17px;
         line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 379px) {
+    .hero {
+        padding-left: 10px;
+        padding-top: 50px;
+        font-size: 14px;
     }
 }

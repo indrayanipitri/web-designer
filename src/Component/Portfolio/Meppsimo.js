@@ -17,7 +17,9 @@ export default function Meppsimo() {
                     <h4>Tool Design :</h4>
                     <p>Adobe Xd</p>
                     <h4 className='font-text'>Font :</h4>
+                    <p>Montserrat</p>
                     <p>Noto Sans</p>
+                    <p>Crete Round</p>
                 </div>
             </div>
             <p className='tech-stack'>Tech Stack: HTML, CSS, Bootstrap.</p>
